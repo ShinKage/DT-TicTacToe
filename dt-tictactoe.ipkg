@@ -1,0 +1,12 @@
+package dt-tictactoe
+
+author = Giuseppe Lomurno
+
+pkgs = contrib
+
+modules = TicTacToe
+        , TicTacToe.TicTacToe
+        , TicTacToe.Game
+
+main = Main
+executable = tictactoe
